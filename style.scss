@@ -20,6 +20,8 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    
+   
     @media screen and (max-width: 850px) {
         overflow: visible;
     }
@@ -29,13 +31,13 @@ body {
         .header-container {
             display: flex;
             align-items: center;
-            justify-content: center;
             height: 100%;
             width: 60%;
             margin: 0 auto;
             gap: 100px;
             @media screen and (max-width:900px) {
                 flex-direction: column;
+                gap: 10px;
             }
             @media screen and (max-width: 1200px) {
                 width: 75%;
@@ -53,7 +55,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 width: 55%;
-                margin-bottom: 80px;
+                
 
                 img {
                     width: 250px;
@@ -84,13 +86,7 @@ body {
                     }
                 }
                 @media screen and (max-width:900px) {
-                    margin: -100px;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                }
-                @media screen and (max-width:900px) {
-                    margin: -100px;
+                   
                     justify-content: center;
                     align-items: center;
                     text-align: center;
@@ -196,6 +192,7 @@ body {
     footer {
         width: 100vw;
         height: 22vh;
+        
         .ul-container {
             display: flex;
             flex-direction: column;

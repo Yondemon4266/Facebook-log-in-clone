@@ -29,9 +29,6 @@ body header .header-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 100%;
   width: 60%;
   margin: 0 auto;
@@ -43,6 +40,7 @@ body header .header-container {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 10px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -74,7 +72,6 @@ body header .header-container .title-container {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 55%;
-  margin-bottom: 80px;
 }
 body header .header-container .title-container img {
   width: 250px;
@@ -112,19 +109,6 @@ body header .header-container .title-container h2 {
 }
 @media screen and (max-width: 900px) {
   body header .header-container .title-container {
-    margin: -100px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 900px) {
-  body header .header-container .title-container {
-    margin: -100px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
