@@ -274,10 +274,15 @@ body footer .ul-container li {
   color: #8a8d91;
   line-height: 1.6;
   font-size: 12px;
+  -webkit-transition: 1s smooth;
+  transition: 1s smooth;
 }
 body footer .ul-container li:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+body footer .ul-container i:hover {
+  color: #b7b9bb;
 }
 body footer .ul-container .languages {
   position: relative;

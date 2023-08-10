@@ -209,10 +209,14 @@ body {
                 color: $footer;
                 line-height: 1.6;
                 font-size: 12px;
+                transition: 1s smooth;
                 &:hover {
                     text-decoration: underline;
                     cursor: pointer;
                 }
+            }
+            i:hover {
+                color: #b7b9bb;
             }
             .languages {
                 position: relative;
