@@ -99,10 +99,15 @@ body header .header-container .title-container h2 {
 }
 @media screen and (max-width: 450px) {
   body header .header-container .title-container h2 {
-    text-align: center;
     width: 350px;
     font-size: 22px;
-    line-height: 28px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body header .header-container .title-container h2 {
+    width: 320px;
+    font-size: 20px;
+    line-height: 22px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -156,7 +161,7 @@ body header .header-container .login-container {
 }
 @media screen and (max-width: 400px) {
   body header .header-container .login-container {
-    width: 340px;
+    width: 320px;
   }
 }
 body header .header-container .login-container form {

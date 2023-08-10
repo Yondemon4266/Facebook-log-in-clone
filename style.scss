@@ -74,10 +74,13 @@ body {
                         line-height: 28px;
                     }
                     @media screen and (max-width:450px) {
-                        text-align: center;
                         width: 350px;
                         font-size: 22px;
-                        line-height: 28px;
+                    }
+                    @media screen and (max-width:400px) {
+                        width: 320px;
+                        font-size: 20px;
+                        line-height: 22px;
                     }
                 }
                 @media screen and (max-width:900px) {
@@ -111,8 +114,9 @@ body {
                     width: 350px;
                 }
                 @media screen and (max-width:400px) {
-                    width: 340px;
+                    width: 320px;
                 }
+
                 form {
                     display: flex;
                     flex-direction: column;
