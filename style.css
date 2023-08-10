@@ -226,13 +226,14 @@ body header .header-container .login-container button:hover {
   }
 }
 body header .header-container .login-container p {
-  width: 85%;
+  padding: 0 10px;
   text-align: center;
   position: absolute;
   bottom: -50px;
   left: 0;
   font-size: 14px;
   font-weight: normal;
+  margin: 0 auto;
 }
 body header .header-container .login-container strong:hover {
   cursor: pointer;
